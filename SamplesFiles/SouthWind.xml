@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
-<!--Windward Studios presents...-->
-<!--SouthWind.XML-->
-<!--...Conversion from Microsoft SQL NorthWind by Matt Abboud-->
 <Employees>	
 		<Employee EmployeeID="5">
 			<LastName>Buchanan</LastName>

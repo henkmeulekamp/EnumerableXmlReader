@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{48A58C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleFiles", "SampleFiles", "{56EA020E-5512-499C-85E1-BD9E04AF57BE}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\SamplesFiles\SouthWind.xml = ..\..\SamplesFiles\SouthWind.xml
+		..\SamplesFiles\SouthWind.xml = ..\SamplesFiles\SouthWind.xml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meulekamp.EnumerableXmlReaders", "Meulekamp.EnumerableXmlReader\Meulekamp.EnumerableXmlReaders.csproj", "{D5006A1B-0958-41E6-8C82-0BBCC67F9A50}"
