@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{48A58CB5-38E4-4124-98C8-4BFF20EA1DE5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\nuget.exe = .nuget\nuget.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleFiles", "SampleFiles", "{56EA020E-5512-499C-85E1-BD9E04AF57BE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\SamplesFiles\SouthWind.xml = ..\..\SamplesFiles\SouthWind.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meulekamp.EnumerableXmlReaders", "Meulekamp.EnumerableXmlReader\Meulekamp.EnumerableXmlReaders.csproj", "{D5006A1B-0958-41E6-8C82-0BBCC67F9A50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meulekamp.EnumerableXmlReader.UnitTests", "UnitTests\Meulekamp.EnumerableXmlReader.UnitTests\Meulekamp.EnumerableXmlReader.UnitTests.csproj", "{DAF6B252-B374-4478-AE3A-9FE427740C13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5006A1B-0958-41E6-8C82-0BBCC67F9A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5006A1B-0958-41E6-8C82-0BBCC67F9A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5006A1B-0958-41E6-8C82-0BBCC67F9A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5006A1B-0958-41E6-8C82-0BBCC67F9A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF6B252-B374-4478-AE3A-9FE427740C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF6B252-B374-4478-AE3A-9FE427740C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF6B252-B374-4478-AE3A-9FE427740C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF6B252-B374-4478-AE3A-9FE427740C13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
